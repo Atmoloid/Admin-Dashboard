@@ -1,0 +1,12 @@
+body{
+    height: 640px;
+ display: grid;
+ grid-template-rows: 140px 110px;
+ grid-template-columns: 110px 110px;
+}
+
+.menù{
+    background-color: rgb(29, 29, 117);
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
