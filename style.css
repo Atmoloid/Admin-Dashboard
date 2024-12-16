@@ -1,12 +1,22 @@
 body{
     height: 640px;
  display: grid;
- grid-template-rows: 140px 110px;
- grid-template-columns: 110px 110px;
+ grid-template-rows: 110px 110px;
+ grid-template-columns: 210px 110px;
 }
 
 .menù{
     background-color: rgb(29, 29, 117);
     grid-row-start: 1;
     grid-row-end: 4;
+    
+}
+.menù > button{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(29, 29, 117);
+    color: white;
+    font-weight: bold;
+    font-size: large;
 }
