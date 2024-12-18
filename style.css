@@ -4,6 +4,7 @@ body{
  display: grid;
  grid-template-rows: 180px 110px;
  grid-template-columns: 210px 110px;
+ background-color: grey;
 }
 
 .menù{
@@ -12,13 +13,13 @@ body{
     grid-row-start: 1;
     grid-row-end: 4;
     justify-content: center;
-    z-index: 1;
+
 }
 .menù > button{
     border: none;
     display: flex;
     flex-direction: column;
-    background-color: rgb(29, 29, 117);
+    background-color: rgb(29, 114, 117);
     color: white;
     font-weight: bold;
     font-size: 32px;
@@ -30,16 +31,33 @@ body{
 
 .header{
     display: grid;
-    background-color: rgb(38, 158, 158);
+    background-color: white;
     grid-column-start: 2;
     grid-column-end: 4;
 }
 .nav-bar{
-    height: 20px;
+    height: 40px;
     width: 320px;
-    background-color: rgb(170, 162, 162);
+    background-color: grey;
     position: absolute;
     left: 40%;
     top: 3%;
     border-radius: 50px;
+}
+.header > img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}
+.header > h2{
+    display: flex;
+    position: absolute;
+    top: 13%;
+    left: 27%;
+    font-weight: bold;
+    font-size: 50px;
 }
