@@ -56,8 +56,52 @@ body{
 .header > h2{
     display: flex;
     position: absolute;
-    top: 13%;
+    top: 18%;
     left: 27%;
     font-weight: bold;
     font-size: 50px;
+}
+.header > h3{
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 51%;
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    position: absolute;
+    top: 3%;
+    left: 37%;
+    font-size: 30px;
+}
+.new{
+    width: 70px;
+    display: grid;
+    background-color: blue;
+    border-radius: 30px;
+    top: 20%;
+    left: 80%;
+    grid-column: 1;
+    grid-row: 2;
+}
+.upload{
+    width: 70px;
+    display: grid;
+    background-color: blue;
+    border-radius: 30px;
+    top: 20%;
+    left: 80%;
+    grid-column: 4;
+    grid-row: 6;
+}
+.share{
+    width: 70px;
+    display: grid;
+    background-color: blue;
+    border-radius: 30px;
+    grid-column: 8;
+    grid-row: 6;
+    top: 20%;
+    left: 80%
 }
