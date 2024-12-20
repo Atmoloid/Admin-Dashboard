@@ -115,3 +115,10 @@ body{
     top: 20%;
     left: 80%
 }
+#bell{
+    grid-column: 8;
+    font-size: 30px; 
+}
+.header > h4{
+    grid-column: 9;
+}
