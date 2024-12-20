@@ -1,6 +1,6 @@
 body{
- height: 645px;
- width: 1265px;
+ height: 655px;
+ width: 1285px;
  display: grid;
  grid-template-rows: 180px 110px;
  grid-template-columns: 210px 110px;
@@ -123,7 +123,7 @@ body{
     font-size: 30px; 
     position: absolute;
     top: 0%;
-    left: 95%;
+    left: 97%;
 }
 .content{
     grid-row-start: 2;
@@ -160,4 +160,89 @@ body{
    position: absolute;
    top: 10%;
    left: 3%;
+}
+.project-2{
+    display: grid;
+    height: 200px;
+    width: 180px;
+    border: 1px solid black;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    border-radius: 30px;
+}
+.project-2 > p{
+    font-weight: bold;
+    font-size: larger;
+    grid-row: 1;
+    grid-column: 2;
+}
+.project-2 > section{
+   position: absolute;
+   top: 10%;
+   left: 3%;
+}
+.project-3{
+    display: grid;
+    height: 200px;
+    width: 180px;
+    border: 1px solid black;
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    border-radius: 30px;
+}
+.project-3 > p{
+    font-weight: bold;
+    font-size: larger;
+    grid-row: 1;
+    grid-column: 2;
+}
+.project-3 > section{
+   position: absolute;
+   top: 10%;
+   left: 3%;
+}
+.trending{
+    height: 475px;
+    width: 320px;
+    border-left: 4px solid black;
+    position: absolute;
+    top: 27%;
+    left: 75%;
+}
+.trending > h1{
+    display: grid;
+    position: absolute;
+    top: 9%;
+    left: 2%;
+}
+.trend-post{
+    display: flex;
+    width: 314px;
+    height: 390px;
+    position: absolute;
+    top: 19%;
+}
+.trend-post > main{
+    height: 250px;
+    width: 280px;
+    border: 1px solid black;
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    border-radius: 30px;
+}
+.header-div{
+    height: 4px;
+    width: 280px;
+    background-color: black;
+    position: absolute;
+    top: 9%;
+}
+.post-header{
+  font-weight: bolder;
+  font-size: large;
+  display: flex;
+  justify-content: center;
 }
