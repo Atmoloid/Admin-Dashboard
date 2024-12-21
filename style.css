@@ -140,6 +140,9 @@ body{
     top: 33%;
     left: 19%;
 }
+main{
+    background-color: white; 
+}
 .project-1{
     display: grid;
     height: 200px;
